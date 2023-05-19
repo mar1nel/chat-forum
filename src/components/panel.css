@@ -1,3 +1,11 @@
+* {
+  background-color: #e6eafc;
+}
 
+.panel {
+  background-color: white;
+  max-width: 700px;
+  max-height: 300px;
+}
 
 /*# sourceMappingURL=panel.css.map */
