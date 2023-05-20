@@ -1,11 +1,19 @@
+import Panel from "../components/panel";
+import Send from "../components/send";
 import React from "react";
 import "./home.scss";
-import Panel from "../components/panel";
 
-const Home = () =>{
+const Home = () => {
     return(
         <>
             <Panel/>
+            <Panel/>
+            <Panel/>
+            <Panel/>
+            <Panel/>
+            <Panel/>
+
+            <Send/>
         </>
     );
 }
