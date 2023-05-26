@@ -1,6 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,400&display=swap");
 body {
   margin: 0;
   padding: 0;
+}
+
+button.plus,
+button.minus {
+  border: none;
+  background: none;
+  cursor: pointer;
+  outline: none;
+  color: #696699;
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
 }
 
 .reply {
@@ -91,7 +104,8 @@ body {
 .plus {
   margin-left: auto;
   color: #696699;
-  font-size: 21px;
+  font-size: 30px;
+  border: none;
 }
 
 .plus:hover {
@@ -100,12 +114,6 @@ body {
 }
 
 .likes {
-  color: #696699;
-  font-size: 21px;
-}
-
-.minus {
-  margin-left: 6px;
   color: #696699;
   font-size: 21px;
 }

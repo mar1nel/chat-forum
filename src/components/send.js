@@ -5,12 +5,11 @@ import { Textarea } from '@nextui-org/react';
 const Send = ()=> {
 
     const textareaStyles = {
-        width: "500px", // Set the desired width
+        width: "500px",
         color: "#8c8d8f",
         paddingLeft: "10px",
         paddingTop: "10px",
-        fontFamily: "Poppins", // Set the desired font family
-        // Add any other custom styles you want
+        fontFamily: "Poppins",
     };
 
     return(
@@ -20,7 +19,7 @@ const Send = ()=> {
                     <img className="authorPicSend" src="https://resizing.flixster.com/yLX51ssr5B7frEgwZCeV7N68gJw=/300x300/v2/https://flxt.tmsimg.com/assets/p3099992_e_h9_ab.jpg" alt=""/>
                 </div>
                 <Textarea className="textarea"
-                    // label="Write your thoughts"
+                    // label="mar1nel"
                     style={textareaStyles}
                     placeholder="Enter your amazing ideas."
                 />
