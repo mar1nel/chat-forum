@@ -1,9 +1,12 @@
 import React from "react";
+import "./login.scss";
 
-const Login = () => {
+function Login() {
     return (
     <>
         <h1>LOGIN</h1>
+
+        <div>
         <form>
             <label htmlFor="name">Name:</label>
             <input type="text" id="name" name="name" />
@@ -16,6 +19,7 @@ const Login = () => {
 
             <button type="submit">Sign Up</button>
         </form>
+        </div>
     </>
     );
 };
