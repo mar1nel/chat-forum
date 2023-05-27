@@ -4,24 +4,28 @@ import {Link} from "react-router-dom";
 function Signup() {
     return (
         <>
-            <form>
-                <label htmlFor="name">Name:</label>
-                <input type="text" id="name" name="name" />
+            <h1>SIGNUP</h1>
 
-                <label htmlFor="email">Email:</label>
-                <input type="email" id="email" name="email" />
+            <div>
+                <div className="form">
+                    <label htmlFor="name">Name:</label>
+                    <input type="text" id="name" name="name" />
 
-                <label htmlFor="password">Password:</label>
-                <input type="password" id="password" name="password" />
+                    <label htmlFor="email">Email:</label>
+                    <input type="email" id="email" name="email" />
 
-                <button type="submit">Sign Up</button>
-            </form>
+                    <label htmlFor="password">Password:</label>
+                    <input type="password" id="password" name="password" />
 
-            <button>
-                <Link to="home">Go home</Link>
-            </button>
+                    <button>Sign Up</button>
+                </div>
+            </div>
+
+            {/*<button>*/}
+            {/*    <Link to="home">Go home</Link>*/}
+            {/*</button>*/}
         </>
 );
-};
+}
 
 export default Signup;

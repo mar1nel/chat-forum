@@ -7,14 +7,11 @@ const Home = () => {
     return(
         <>
             <div className="comments">
-            <Panel/>
-            <Panel/>
-            <Panel/>
-            <Panel/>
-            <Panel/>
-            <Panel/>
+                <Panel/><Panel/>
+                <Panel/><Panel/>
+                <Panel/><Panel/>
             </div>
-            <Send/>
+                <Send/>
         </>
     );
 }

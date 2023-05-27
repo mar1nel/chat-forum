@@ -6,7 +6,8 @@ import Auth from "./auth/auth";
 function App() {
   return (
     <>
-      <Auth/>
+        <Auth/>
+        <Home/>
     </>
   );
 }
