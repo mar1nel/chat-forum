@@ -15,7 +15,7 @@ function Auth() {
     return(
         <div className="auth">
             <div className="authLeft">
-                <img src={image1} alt=""/>
+                <img style={{display: ""}} src={image1} alt=""/>
             </div>
             <div className="authRight">
                 {active === "login" ? (<Login/>) : (<Signup/>)}

@@ -1,8 +1,7 @@
-.auth{
-  //display: flex;
-  position: absolute;
-  //top: 50%;
-  top: 10%;
-  left: 50%;
-  //margin: -25px 0 0 -25px;
+.auth {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
 }
