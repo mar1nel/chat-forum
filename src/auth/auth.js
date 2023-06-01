@@ -22,8 +22,8 @@ function Auth() {
             </div>
             <div className="authMore">
                 {active === "login" ?
-                    (<>Dont have an account? <button onClick={handleChange}>Sign Up</button></>) :
-                    (<>Have an account? <button onClick={handleChange}>Log In</button></>)}
+                    (<>Dont have an account? <button style={{maxWidth: "100px",}} onClick={handleChange}>Sign Up</button></>) :
+                    (<>Have an account? <button onClick={handleChange} style={{maxWidth: "100px",}}>Log In</button></>)}
                 <span>
 
                 </span>
