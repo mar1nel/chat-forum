@@ -57,7 +57,7 @@ button.minus {
   justify-content: center;
   align-items: center;
   align-self: center;
-  gap: 10px;
+  //gap: 0px;
   font-size: 20px;
   font-weight: bold;
 }
@@ -112,6 +112,7 @@ button.minus {
 }
 
 .plus {
+  //margin-top: 15px;
   margin-left: auto;
   //align-items: center;
   color: #696699;
@@ -119,37 +120,30 @@ button.minus {
   border: none;
 }
 
-//button.minus{
-//  margin-left: 6px;
-//  color: #696699;
-//  font-size: 35px;
-//  border: none;
+//.plus:hover{
+//  transition: 1s;
+//  color: #21a821;
 //}
-
-.plus:hover{
-  transition: 1s;
-  color: #21a821;
-}
 
 .likes{
   color: #696699;
   font-size: 21px;
 }
 
-.minus:hover{
-  transition: 1s;
-  color: #c71d1d;
-}
-
-.negative {
-  transition: 1.7s;
-  color: #c71d1d;
-}
-
-.positive {
-  transition: 1.7s;
-  color: #21a821;
-}
+//.minus:hover{
+//  transition: 1s;
+//  color: #c71d1d;
+//}
+//
+//.negative {
+//  transition: 1.7s;
+//  color: #c71d1d;
+//}
+//
+//.positive {
+//  transition: 1.7s;
+//  color: #21a821;
+//}
 
 
 @media only screen and (max-width: 540px) {
